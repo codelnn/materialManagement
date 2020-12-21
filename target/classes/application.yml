@@ -1,0 +1,35 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: emms
+  datasource:
+    username: lnn
+    password: 123456
+    url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: oracle.jdbc.OracleDriver
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+
+
+# MinIO对象存储相关配置
+minio:
+  endpoint: http://192.168.26.104:9000 #MinIO服务所在地址
+  bucketName: emms #存储桶名称
+  accessKey: minioadmin #访问的key
+  secretKey: minioadmin #访问的秘钥
+
+
+# MapperScan
+# sql映射文件位置
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+  type-aliases-package: com.codelnn.emms.entity
+
+logging:
+  level:
+    com.codelnn.emms.dao: debug

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.codelnn.emms.dao.UserDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.codelnn.emms.entity.UserEntity" id="userMap">
+        <result property="id" column="ID"/>
+        <result property="username" column="USERNAME"/>
+        <result property="nickname" column="NICKNAME"/>
+        <result property="email" column="EMAIL"/>
+        <result property="avatar" column="AVATAR"/>
+        <result property="phoneNumber" column="PHONE_NUMBER"/>
+        <result property="status" column="STATUS"/>
+        <result property="createTime" column="CREATE_TIME"/>
+        <result property="modifiedTime" column="MODIFIED_TIME"/>
+        <result property="sex" column="SEX"/>
+        <result property="salt" column="SALT"/>
+        <result property="password" column="PASSWORD"/>
+    </resultMap>
+
+
+</mapper>

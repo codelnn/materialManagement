@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.codelnn.emms.dao.MenuDao">
+
+    <!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.codelnn.emms.entity.MenuEntity" id="menuMap">
+        <result property="id" column="ID"/>
+        <result property="parentId" column="PARENT_ID"/>
+        <result property="menuName" column="MENU_NAME"/>
+        <result property="icon" column="ICON"/>
+        <result property="url" column="URL"/>
+        <result property="orderNum" column="ORDER_NUM"/>
+        <result property="available" column="AVAILABLE"/>
+        <result property="perms" column="PERMS"/>
+        <result property="type" column="TYPE"/>
+        <result property="open" column="OPEN"/>
+    </resultMap>
+</mapper>

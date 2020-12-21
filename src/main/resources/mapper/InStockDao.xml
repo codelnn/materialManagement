@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.codelnn.emms.dao.InStockDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.codelnn.emms.entity.InStockEntity" id="inStockMap">
+        <result property="id" column="ID"/>
+        <result property="inNum" column="IN_NUM"/>
+        <result property="type" column="TYPE"/>
+        <result property="operator" column="OPERATOR"/>
+        <result property="createTime" column="CREATE_TIME"/>
+        <result property="modifiedTime" column="MODIFIED_TIME"/>
+        <result property="productNumber" column="PRODUCT_NUMBER"/>
+        <result property="supplierId" column="SUPPLIER_ID"/>
+        <result property="remark" column="REMARK"/>
+        <result property="status" column="STATUS"/>
+    </resultMap>
+
+
+</mapper>

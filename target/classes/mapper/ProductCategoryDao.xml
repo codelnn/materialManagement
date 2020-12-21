@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.codelnn.emms.dao.ProductCategoryDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.codelnn.emms.entity.ProductCategoryEntity" id="productCategoryMap">
+        <result property="id" column="ID"/>
+        <result property="name" column="NAME"/>
+        <result property="remark" column="REMARK"/>
+        <result property="sort" column="SORT"/>
+        <result property="createTime" column="CREATE_TIME"/>
+        <result property="modifiedTime" column="MODIFIED_TIME"/>
+        <result property="pid" column="PID"/>
+    </resultMap>
+
+
+</mapper>
