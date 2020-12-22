@@ -14,7 +14,7 @@
 
 本系统采用Oracle作为数据库开发工具。根据系统需求分析和保证数据统一、完整和高效的原则，需要对数据库进行合理的设计。
 
-![](D:/物资去向E-R图.png)
+![](image/物资去向E-R图.png)
 
 
 
@@ -191,7 +191,7 @@
 
 本系统主要分为三个模块，分别为系统模块、第三方服务模块、业务模块。其中系统模块负责使用本系统的用户管理；第三服务模块负责本系统中文件的存储和下载功能；业务模块负责物资分类、物资去向、物资来源、物资入库、物资发放功能的管理。该系统结构图如下图所示。
 
-![图1 系统结构图](xx医院疫情物质管理系统.png)
+![](image/xx医院疫情物质管理系统.png)
 
 ​                                                                                         
 
@@ -205,66 +205,4 @@
 2. 系统开发语言：Java、JavaScript 
 3. 运行平台：Windows10
 4. 数据库平台：Oralce19C
-
-## 5. 系统操作
-
-### 5.1 登录页面
-
-![image-20201221213104077](../../AppData/Roaming/Typora/typora-user-images/image-20201221213104077.png)
-
-### 5.2 系统首页
-
-![image-20201221213129068](../../AppData/Roaming/Typora/typora-user-images/image-20201221213129068.png)
-
-### 5.3 用户管理
-
-#### 5.3.1 用户管理列表页面
-
-![image-20201221213203900](../../AppData/Roaming/Typora/typora-user-images/image-20201221213203900.png)
-
-#### 5.3.2 添加用户页面
-
-![image-20201221213330084](../../AppData/Roaming/Typora/typora-user-images/image-20201221213330084.png)
-
-### 5.4 物资管理
-
-#### 5.4.1 物资资料页面
-
-![image-20201221213603422](../../AppData/Roaming/Typora/typora-user-images/image-20201221213603422.png)
-
-#### 5.4.2 物资类别页面
-
-![image-20201221213700930](../../AppData/Roaming/Typora/typora-user-images/image-20201221213700930.png)
-
-#### 5.4.3 物资入库
-
-![image-20201221214117596](../../AppData/Roaming/Typora/typora-user-images/image-20201221214117596.png)
-
-#### 5.4.4 物资入库添加
-
-![image-20201221214432294](../../AppData/Roaming/Typora/typora-user-images/image-20201221214432294.png)
-
-#### 5.4.5 物资发放
-
-![image-20201221214304334](../../AppData/Roaming/Typora/typora-user-images/image-20201221214304334.png)
-
-#### 5.4.6 添加物质发放
-
-![image-20201221214550385](../../AppData/Roaming/Typora/typora-user-images/image-20201221214550385.png)
-
-### 5.5 物质来源管理
-
-![image-20201221214623383](../../AppData/Roaming/Typora/typora-user-images/image-20201221214623383.png)
-
-### 5.6 物质去处管理
-
-![image-20201221214652346](../../AppData/Roaming/Typora/typora-user-images/image-20201221214652346.png)
-
-### 5.7 物质库存列表
-
-![image-20201221214720635](../../AppData/Roaming/Typora/typora-user-images/image-20201221214720635.png)
-
-### 5.8 全国疫情实时数据展示
-
-![image-20201221215037671](../../AppData/Roaming/Typora/typora-user-images/image-20201221215037671.png)
 
